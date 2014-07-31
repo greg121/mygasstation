@@ -10,11 +10,19 @@ To download mygasstation you can to clone the git repo
     
 ##Usage
 
-To retrieve the diesel prices in Frankfurt you simply type into you command line
+This is how to use this tool
+
+    python getPrices.py address fuel [limit]
+    
+* adress can be a city or a full address
+* fuel can be Diesel or Super
+* limit is optional and is an integer value to limit the output
+
+To retrieve the Diesel prices in Frankfurt you simply type into you command line
 
     python getPrices.py Frankfurt Diesel
     
-Output:
+and the output looks like this
 
     Shell Frankfurt Am Main Mörfelder Landstraße: 1.349 (Mörfelder Landstraße 16)
     Bp Tankstelle Vural Demir: 1.349 (Siemensstraße 37)
@@ -29,4 +37,13 @@ Output:
     Shell Frankfurt Am Main Kennedyallee: 1.329 (Kennedyallee 120)
     Esso: 1.319 (Spessartstraße 22 - 24)
     Esso Hanauer Landstraße: 1.319 (Hanauer Landstraße 178)
-    
+
+To retrieve the Super prices in Darmstadt in Kasinostrasse 60 but you want to limit the output to three gas stations you tpye
+
+    python getPrices.py "Darmstadt Kasinostrasse 60" Super 3
+
+and the output looks like this
+
+    Tankstelle Darmstadt Kasinostraße: 1.509 (Kasinostraße 60)
+    Esso Darmstadt: 1.519 (Kasinostraße 66)
+    Jet: 1.509 (Kasinostraße 75A)
