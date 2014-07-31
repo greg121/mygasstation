@@ -10,6 +10,11 @@ To download mygasstation you can to clone the git repo
     
 ##Usage
 
+You might have to install used packages if you don't have them already
+
+    apt-get install python-mechanize python-pip
+    pip install pygeocoder
+
 This is how to use this tool
 
     python getPrices.py address fuel [limit]
@@ -18,7 +23,7 @@ This is how to use this tool
 * fuel can be Diesel or Super
 * limit is optional and is an integer value to limit the output
 
-To retrieve the Diesel prices in Frankfurt you simply type into you command line
+To retrieve the Diesel prices in Frankfurt you simply type into your command line
 
     python getPrices.py Frankfurt Diesel
     
