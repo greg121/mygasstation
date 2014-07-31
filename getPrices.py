@@ -37,3 +37,6 @@ for s in itemlist2:
 
 for i in range(0,len(names)):
     print names[i] + ": " + prices[i] + " " + "(" + streets[i] + ")"
+    if len(sys.argv) == 4:
+        if int(sys.argv[3])-1 == i:
+            break
