@@ -38,7 +38,7 @@ and the output looks like this
     Esso: 1.319 (Spessartstraße 22 - 24)
     Esso Hanauer Landstraße: 1.319 (Hanauer Landstraße 178)
 
-To retrieve the Super prices in Darmstadt in Kasinostrasse 60 but you want to limit the output to three gas stations you tpye
+To retrieve the Super prices in Darmstadt in Kasinostrasse 60 but you want to limit the output to three gas stations you type
 
     python getPrices.py "Darmstadt Kasinostrasse 60" Super 3
 
