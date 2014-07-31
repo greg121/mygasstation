@@ -4,16 +4,16 @@ this small tool enables you to track the prices of your favourite gas station
 
 ##Installation
 
+You might have to install used packages if you don't have them already
+
+    apt-get install python-mechanize python-pip
+    pip install pygeocoder
+
 To download mygasstation you can to clone the git repo 
 
     git clone https://github.com/greg121/mygasstation.git
     
 ##Usage
-
-You might have to install used packages if you don't have them already
-
-    apt-get install python-mechanize python-pip
-    pip install pygeocoder
 
 This is how to use this tool
 
