@@ -12,7 +12,7 @@ You might have to install used packages if you don't have them already
     python ~/Unidecode/setup.py install
     
 
-To download mygasstation you can to clone the git repo 
+To download mygasstation you can clone the git repo 
 
     git clone https://github.com/greg121/mygasstation.git
 
