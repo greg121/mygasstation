@@ -23,7 +23,7 @@ This is how to use this tool
 
     python getPrices.py address fuel [limit]
     
-* adress can be a city or a full address
+* adress can be a city or a full address (in quotes)
 * fuel can be Diesel or Super
 * limit is optional and is an integer value to limit the output
 
