@@ -23,6 +23,8 @@ This is how to use this tool
 * fuel can be Diesel or Super
 * limit is optional and is an integer value to limit the output
 
+##Examples
+
 To retrieve the Diesel prices in Frankfurt you simply type into your command line
 
     python getPrices.py Frankfurt Diesel
