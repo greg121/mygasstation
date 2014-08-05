@@ -1,3 +1,4 @@
+from unidecode import unidecode
 import mechanize
 from urllib import urlencode
 from pygeocoder import Geocoder
@@ -36,7 +37,7 @@ for s in itemlist2:
     prices.append(s.attributes['price'].value)
 
 for i in range(0,len(names)):
-    print names[i] + ": " + prices[i] + " " + "(" + streets[i] + ")"
+    print unidecode(names[i]) + ": " + prices[i] + " " + "(" + unidecode(streets[i]) + ")"
     if len(sys.argv) == 4:
         if int(sys.argv[3])-1 == i:
             break
