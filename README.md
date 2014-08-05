@@ -9,7 +9,8 @@ You might have to install used packages if you don't have them already
     apt-get install python-mechanize python-pip
     pip install pygeocoder
     git clone https://github.com/takluyver/Unidecode.git
-    python ./Unidecode/setup.py install
+    cd Unicode/
+    python setup.py install
     
 
 To download mygasstation you can clone the git repo 
