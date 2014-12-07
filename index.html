@@ -28,16 +28,20 @@
 
     <div class="container">
       <section id="main_content">
-        <h2>
-<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+        <h1>
+<a id="mygasstation" class="anchor" href="#mygasstation" aria-hidden="true"><span class="octicon octicon-link"></span></a>mygasstation</h1>
+
+<p>this small tool enables you to track the prices of your favourite gas station using Python 2.7.6, <a href="https://bitbucket.org/xster/pygeocoder/wiki/Home">Pydecoder</a> and <a href="http://tanken.t-online.de/">Tanken</a></p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <p>You might have to install used packages if you don't have them already</p>
 
 <pre><code>apt-get install python-mechanize python-pip
 pip install pygeocoder
 git clone https://github.com/takluyver/Unidecode.git
-cd Unicode/
-python setup.py install
+python ./Unidecode/setup.py install
 </code></pre>
 
 <p>To download mygasstation you can clone the git repo </p>
@@ -46,7 +50,7 @@ python setup.py install
 </code></pre>
 
 <h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <p>This is how to use this tool</p>
 
@@ -57,8 +61,10 @@ python setup.py install
 <li>adress can be a city or a full address (in quotes)</li>
 <li>fuel can be Diesel or Super</li>
 <li>limit is optional and is an integer value to limit the output</li>
-</ul><h2>
-<a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples</h2>
+</ul>
+
+<h2>
+<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h2>
 
 <p>To retrieve the Diesel prices in Frankfurt you simply type into your command line</p>
 
